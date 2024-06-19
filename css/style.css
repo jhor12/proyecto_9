@@ -1,0 +1,42 @@
+.bi {
+	vertical-align: -.125em;
+	fill: currentColor;
+  }
+
+  .bd-mode-toggle {
+	z-index: 1500;
+  }
+
+  .bd-mode-toggle .dropdown-menu .active .bi {
+	display: block !important;
+  }
+.container{
+  box-shadow: 1px 1px 10px blue;
+}
+.navbar-brand {
+  height: 200px;
+  overflow: hidden;
+  border-radius: 16px;
+}
+.navbar-brand img{
+  object-fit: cover;
+  transition: transform 0.8s;
+  height: 100%;
+}
+.navbar-brand:hover img {
+  transform: scale(1.2);
+}
+.navbar-brand {
+  margin-top: 10px;
+}
+.navbar-brand logo {
+  max-height: 40px;
+  margin-top: 5px;
+}
+.offcanvas-body{
+  position: fixed;
+  z-index: 1000;
+}
+.formulario{
+  text-align: center;
+}
